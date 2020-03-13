@@ -29,12 +29,24 @@ header img {
 ul{
     display: inline-block;
     padding-inline-start:0px;
+    margin-bottom: 5px;
+    margin-block-start: 6px;
 }
 
 ul li{
     display: inline-block;
-    margin-top: 6px;
-}
+  
+    padding-top:8px ;
+    }
+    ul li:hover{
+        background-color :#bef2ff ;
+        height: 25px;
+        border-radius: 10px;
+        
+      
+    }
+
+    
 
 ul li a{
     text-decoration: none;
@@ -50,9 +62,18 @@ ul#menu li a{
     font-weight:bold;
     color: white;
 }
+ul#menu li a:hover{
+          color:#ff3d00;
+        
+ }
+ ul#login-regitrar li :hover{
+    color:#ff3d00;
+  font-weight: bolder;
+}
 ul#login-regitrar{
     float: right;
     padding-right: 20px;
+    margin-block-start: 15px;
 }
 
 ul#login-regitrar li a{
