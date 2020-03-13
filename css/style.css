@@ -1,20 +1,22 @@
-body{
+body {
     margin: 0px;
     padding: 0px;
     background-image: url("../img/bg-2.png");
-    font-family:monospace
+    font-family: monospace
 }
-p{
+
+p {
     text-align: justify;
     margin-right: 15px;
 }
 
-div#pagina{
+div#pagina {
     width: 1140px;
     height: 1210px;
     margin: auto;
 }
-header{
+
+header {
     height: 60px;
     background-color: #ff3d00;
     margin: auto;
@@ -26,132 +28,145 @@ header img {
     float: left;
 }
 
-ul{
+ul {
     display: inline-block;
-    padding-inline-start:0px;
+    padding-inline-start: 0px;
     margin-bottom: 5px;
     margin-block-start: 6px;
 }
 
-ul li{
+ul li {
     display: inline-block;
-  
-    padding-top:8px ;
-    }
-    ul li:hover{
-        background-color :#bef2ff ;
-        height: 25px;
-        border-radius: 10px;
-        
-      
-    }
 
-    
+    padding-top: 8px;
+}
 
-ul li a{
+ul li:hover {
+    background-color: #bef2ff;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+
+
+}
+
+
+
+ul li a {
     text-decoration: none;
     text-transform: uppercase;
 }
+
 ul#menu {
     float: left;
-    
+    margin-block-start: 15px
 }
-ul#menu li a{
+
+ul#menu li a {
     margin: 6px;
     font-size: 12px;
-    font-weight:bold;
+    font-weight: bold;
     color: white;
 }
-ul#menu li a:hover{
-          color:#ff3d00;
-        
- }
- ul#login-regitrar li :hover{
-    color:#ff3d00;
-  font-weight: bolder;
+
+ul#menu li a:hover {
+    color: #ff3d00;
+
 }
-ul#login-regitrar{
+
+ul#login-regitrar li :hover {
+    color: #ff3d00;
+    font-weight: bolder;
+}
+
+ul#login-regitrar {
     float: right;
     padding-right: 20px;
     margin-block-start: 15px;
 }
 
-ul#login-regitrar li a{
+ul#login-regitrar li a {
     margin: 6px;
     font-size: 12px;
-    font-weight:bold;
+    font-weight: bold;
     color: white;
 }
 
-main{
+main#principal {
     width: 800px;
     height: 1210px;
     background-color: whitesmoke;
     float: left;
-   
+
 }
-section.sessao-esquerda{
+
+section.sessao-esquerda {
     width: 385px;
     height: 381px;
-   
+
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
     float: left;
 }
-section.sessao-direita{
+
+section.sessao-direita {
     width: 385px;
     height: 381px;
-   
+
     margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 10px;
     float: right;
 }
-section img{
+
+section img {
     width: 385px;
     height: 200px;
-    
+
 }
 
-aside{
+aside {
     width: 320px;
     height: 1210px;
-   
-    
+
+
     float: right;
     padding-left: 2px;
     padding-right: 2px;
 }
- aside h2#tutorial{
-     margin-top:0 ;
-     height: 35px;
-     background-color: white;
-     padding-top: 10px;
-     padding-left: 10px;
 
- }
+aside h2#tutorial {
+    margin-top: 0;
+    height: 35px;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 10px;
 
- aside section{
-     height: 80px;
-     background-color: white;
-    
+}
 
- }
+aside section {
+    height: 80px;
+    background-color: white;
 
- aside img{
-     width: 100px;
-     height: 70px;
-     padding: 5px;
-     float: left;
- }
- aside p{
-    padding-top:18px ;
+
+}
+
+aside img {
+    width: 100px;
+    height: 70px;
+    padding: 5px;
+    float: left;
+}
+
+aside p {
+    padding-top: 18px;
     margin-block-start: 3px;
-    
- }
- aside h2#publicidade{
-    margin-top:30px ;
+
+}
+
+aside h2#publicidade {
+    margin-top: 30px;
     margin-bottom: 10px;
     height: 35px;
     background-color: white;
@@ -159,23 +174,90 @@ aside{
     padding-left: 10px;
 
 }
-section.baner-publicidade{
+
+section.baner-publicidade {
     height: 550px;
     padding: 5px;
 }
-section.baner-publicidade img{
+
+section.baner-publicidade img {
     width: 300px;
     height: 250px;
     margin-bottom: 15px;
-   
+
 }
 
-section button{
+section button {
     width: 100px;
     height: 35px;
     border: none;
-    background-color:#ff3333;
+    background-color: #ff3333;
     color: white;
     font-weight: bold;
 }
 
+
+/*Tela lofin*/
+main#login {
+    width: 1140px;
+    height: 1210px;
+
+    float: left;
+
+
+}
+
+form#form-login {
+    width: 350px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+form h1 {
+    color: rgb(31, 31, 31)
+}
+
+label {
+    display: block;
+    text-align: left;
+    width: 350px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: rgb(31, 31, 31)
+}
+
+input {
+    width: 346px;
+    height: 25px;
+    margin-bottom: 20px;
+
+}
+
+form#form-login input#check-login {
+    width: 20px;
+    float: right;
+
+}
+
+form#form-login label#label-check-login {
+    width: 110px;
+    float: right;
+    display: inline-block;
+    padding-top: 5px;
+}
+
+button{
+    position: relative;
+    width: 120px;
+    height: 32px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #008ebc
+
+}
+form#form-login button {
+    top: 100px;
+    right: 47px;
+    }
