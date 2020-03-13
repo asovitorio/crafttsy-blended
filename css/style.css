@@ -1,3 +1,4 @@
+/*Comun para todas as paginas*/
 body {
     margin: 0px;
     padding: 0px;
@@ -92,6 +93,7 @@ ul#login-regitrar li a {
     color: white;
 }
 
+/*Inicio*/
 main#principal {
     width: 800px;
     height: 1210px;
@@ -196,22 +198,13 @@ section button {
     font-weight: bold;
 }
 
-
-/*Tela lofin*/
-main#login {
-    width: 1140px;
-    height: 1210px;
-
-    float: left;
-
-
-}
-
-form#form-login {
+form {
     width: 350px;
-    height: 400px;
+    height: 900px;
     margin: auto;
     text-align: center;
+   
+
 }
 
 form h1 {
@@ -227,11 +220,19 @@ label {
     color: rgb(31, 31, 31)
 }
 
-input {
+input,
+select {
     width: 346px;
     height: 25px;
     margin-bottom: 20px;
 
+}
+
+/*Tela login*/
+main#login {
+    width: 1140px;
+    height: 1210px;
+    float: left;
 }
 
 form#form-login input#check-login {
@@ -247,7 +248,7 @@ form#form-login label#label-check-login {
     padding-top: 5px;
 }
 
-button{
+button {
     position: relative;
     width: 120px;
     height: 32px;
@@ -255,9 +256,81 @@ button{
     border-radius: 10px;
     color: white;
     background-color: #008ebc
-
 }
+
 form#form-login button {
     top: 100px;
     right: 47px;
-    }
+}
+
+/*Registro*/
+form#form-registro {}
+
+form#form-registro label#label-radio-registro[name=genero] {
+    position: relative;
+    bottom: 8px;
+    right: 20px;
+    display: inline;
+    font-size: 13px;
+    text-align: left;
+
+}
+
+form#form-registro h2 {
+    text-align: left;
+    margin: 0;
+}
+
+form#form-registro input#radio-registro[name="genero"] {
+    position: relative;
+    right: 10px;
+    width: 12px;
+}
+
+form#form-registro label#label-radio-registro[name=hobbie] {
+    position: relative;
+    bottom: 8px;
+    right: 49px;
+    display: inline;
+    font-size: 13px;
+    text-align: left;
+
+}
+
+form#form-registro input#radio-registro[name="hobbie"] {
+    position: relative;
+    right: 50px;
+    width: 12px;
+}
+
+textarea {
+    width: 346px;
+
+}
+
+#teste {
+    width: 100%;
+    height: 20px;
+    padding-bottom: 80px;
+    margin-top: 30px;
+}
+
+#confirmacao {
+    width: 13px;
+    float: left;
+    margin-left: 0;
+
+}
+
+#label-confirmacao {
+    padding-top: 7px;
+}
+
+#btn-enviar{
+    position: relative;
+    right: 50px;
+}
+#btn-cancelar{
+    position: relative;
+    right: 50px;
+}

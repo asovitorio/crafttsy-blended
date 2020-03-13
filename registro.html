@@ -38,7 +38,7 @@
         </header>
 
         <main id="login">
-            <form id="form-login" action="">
+            <form id="form-registro" action="">
                 <h1>BEM-VINDO</h1>
                 <label for="nome">Nome</label>
                 <input type="text" name="nome" placeholder="Nome" required>
@@ -46,9 +46,48 @@
                 <input type="email" name="email" placeholder="email@email.com" required>
                 <label for="senha">Senha</label>
                 <input type="password" name="senha" placeholder="senha" required>
-                <label id="label-check-login" for="senha">Lembra de mim</label>
-                <input id="check-login" type="checkbox">
-                <button type="submit">Entrar</button>
+                <h2>Pais</h2>
+                <select name="pais" id="genero-registro" required>
+                    <option value="">País</option>
+                    <option value="">Brasil</option>
+                    <option value="">Chile</option>
+                    <option value="">Argentina</option>
+                    <option value="">Peru</option>
+                    <option value="">Venezuela</option>
+                </select>
+                <h2>Genero</h2>
+                <div id="genero-registro">
+                    <input id="radio-registro" type="radio" name="genero" required>
+                    <label id="label-radio-registro" for="senha" name="genero">Masculino</label>
+                    <input id="radio-registro" type="radio" name="genero"  required>
+                    <label id="label-radio-registro"  name="genero" for="senha">Feminino</label>
+                    <input id="radio-registro" type="radio" name="genero" required>
+                    <label id="label-radio-registro" name="genero" for="senha">Prefiro não dizer</label>
+                </div>
+                <h2>Hobbies</h2>
+                <div id="genero-registro">
+                    <input id="radio-registro" type="checkbox" name="hobbie" required>
+                    <label id="label-radio-registro" name="hobbie" for="senha">Guitarra</label>
+                    <input id="radio-registro" type="checkbox" name="hobbie" required>
+                    <label id="label-radio-registro" name="hobbie" for="senha">Futebol</label>
+                    <input id="radio-registro" type="checkbox" name="hobbie" required>
+                    <label id="label-radio-registro" name="hobbie" for="senha">tenis</label><br>
+                    <input id="radio-registro" type="checkbox" name="hobbie" required>
+                    <label id="label-radio-registro" name="hobbie" for="senha">Programação</label>
+                    <input id="radio-registro" type="checkbox" name="hobbie" required>
+                    <label id="label-radio-registro" name="hobbie" for="senha">Outros</label>
+                </div>
+                <h2>Comentarios</h2>
+                <textarea name="comentarios" id="" cols="30" rows="10"></textarea>
+                <div id="teste"><input id="confirmacao" type="checkbox" name="hobbie" required>
+                    <label id="label-confirmacao" name="hobbie" for="senha">Aceito os termos e condições. </label> </div>
+                    
+                
+               
+
+                <button id="btn-enviar" type="submit">Entrar</button>
+                <button id="btn-cancelar" type="submit">Cancelar</button>
+                
             </form>
 
 
